@@ -39,6 +39,8 @@ models:
   dbt_connections:
     staging:
       +materialized: view
+      +schema: dbt_mwaniki
 
     marts:
      +materialized: table
+     +schema: dbt_mwaniki
