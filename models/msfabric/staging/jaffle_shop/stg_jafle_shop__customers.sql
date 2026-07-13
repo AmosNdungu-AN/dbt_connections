@@ -4,3 +4,4 @@ select
     LAST_NAME as l_name
 from
     {{source('streamflix_jaffle','customers')}}
+    

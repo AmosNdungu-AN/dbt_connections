@@ -6,5 +6,7 @@ sources:
     schema: dbo
     tables:
       - name: customers
+          
       - name: orders
+        
       - name: payments
