@@ -2,17 +2,16 @@ with
 
 source as (
 
-    select * from {{ source('streamflix_jaffle', 'orders') }}
+    select * from {{ ref('stg_jafle_shop__orders') }}
 
 ),
 
 renamed as (
 
     select
-        id,
-        user_id,
-        order_date,
-        status
+        order_id,
+        customer_id,
+        order_date
 
     from source
 
