@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: streamflix_jaffle
+    database: jaffleshop_wh
+    schema: dbo
+    tables:
+      - name: customers
+          
+      - name: orders
+        
+      - name: payments
